@@ -799,71 +799,71 @@
 // const booksByAuthor = books.filter((author, AUTHOR) => author === AUTHOR);
 // console.log(booksByAuthor);
 
-const users = [
-  {
-    name: 'Moore Hensley',
-    email: 'moorehensley@indexia.com',
-    eyeColor: 'blue',
-    friends: ['Sharron Pace'],
-    isActive: false,
-    balance: 2811,
-    gender: 'male'
-  },
-  {
-    name: 'Sharlene Bush',
-    email: 'sharlenebush@tubesys.com',
-    eyeColor: 'blue',
-    friends: ['Briana Decker', 'Sharron Pace'],
-    isActive: true,
-    balance: 3821,
-    gender: 'female'
-  },
-  {
-    name: 'Ross Vazquez',
-    email: 'rossvazquez@xinware.com',
-    eyeColor: 'green',
-    friends: ['Marilyn Mcintosh', 'Padilla Garrison', 'Naomi Buckner'],
-    isActive: false,
-    balance: 3793,
-    gender: 'male'
-  },
-  {
-    name: 'Elma Head',
-    email: 'elmahead@omatom.com',
-    eyeColor: 'green',
-    friends: ['Goldie Gentry', 'Aisha Tran'],
-    isActive: true,
-    balance: 2278,
-    gender: 'female'
-  },
-  {
-    name: 'Carey Barr',
-    email: 'careybarr@nurali.com',
-    eyeColor: 'blue',
-    friends: ['Jordan Sampson', 'Eddie Strong', 'Adrian Cross'],
-    isActive: true,
-    balance: 3951,
-    gender: 'male'
-  },
-  {
-    name: 'Blackburn Dotson',
-    email: 'blackburndotson@furnigeer.com',
-    eyeColor: 'brown',
-    friends: ['Jacklyn Lucas', 'Linda Chapman', 'Adrian Cross', 'Solomon Fokes'],
-    isActive: false,
-    balance: 1498,
-    gender: 'male'
-  },
-  {
-    name: 'Sheree Anthony',
-    email: 'shereeanthony@kog.com',
-    eyeColor: 'brown',
-    friends: ['Goldie Gentry', 'Briana Decker'],
-    isActive: true,
-    balance: 2764,
-    gender: 'female'
-  }
-]
+// const users = [
+//   {
+//     name: 'Moore Hensley',
+//     email: 'moorehensley@indexia.com',
+//     eyeColor: 'blue',
+//     friends: ['Sharron Pace'],
+//     isActive: false,
+//     balance: 2811,
+//     gender: 'male'
+//   },
+//   {
+//     name: 'Sharlene Bush',
+//     email: 'sharlenebush@tubesys.com',
+//     eyeColor: 'blue',
+//     friends: ['Briana Decker', 'Sharron Pace'],
+//     isActive: true,
+//     balance: 3821,
+//     gender: 'female'
+//   },
+//   {
+//     name: 'Ross Vazquez',
+//     email: 'rossvazquez@xinware.com',
+//     eyeColor: 'green',
+//     friends: ['Marilyn Mcintosh', 'Padilla Garrison', 'Naomi Buckner'],
+//     isActive: false,
+//     balance: 3793,
+//     gender: 'male'
+//   },
+//   {
+//     name: 'Elma Head',
+//     email: 'elmahead@omatom.com',
+//     eyeColor: 'green',
+//     friends: ['Goldie Gentry', 'Aisha Tran'],
+//     isActive: true,
+//     balance: 2278,
+//     gender: 'female'
+//   },
+//   {
+//     name: 'Carey Barr',
+//     email: 'careybarr@nurali.com',
+//     eyeColor: 'blue',
+//     friends: ['Jordan Sampson', 'Eddie Strong', 'Adrian Cross'],
+//     isActive: true,
+//     balance: 3951,
+//     gender: 'male'
+//   },
+//   {
+//     name: 'Blackburn Dotson',
+//     email: 'blackburndotson@furnigeer.com',
+//     eyeColor: 'brown',
+//     friends: ['Jacklyn Lucas', 'Linda Chapman', 'Adrian Cross', 'Solomon Fokes'],
+//     isActive: false,
+//     balance: 1498,
+//     gender: 'male'
+//   },
+//   {
+//     name: 'Sheree Anthony',
+//     email: 'shereeanthony@kog.com',
+//     eyeColor: 'brown',
+//     friends: ['Goldie Gentry', 'Briana Decker'],
+//     isActive: true,
+//     balance: 2764,
+//     gender: 'female'
+//   }
+// ]
 // console.log(users);
 
 // chain//
@@ -1002,19 +1002,97 @@ const users = [
 // const sortedByDescentingRating = [...books].sort((a, b) => b.rating - a.rating);
 
 
-const books = [
-  { title: 'Последнее королевство', author: 'Бернард Корнуэлл', rating: 8.38 },
-  { title: 'На берегу спокойных вод', author: 'Роберт Шекли', rating: 8.51 },
-  { title: 'Сон смешного человека', author: 'Федор Достоевский', rating: 7.75 },
-  { title: 'Красна как кровь', author: 'Ли Танит', rating: 8.14 },
-  { title: 'Сны В Ведьмином Доме', author: 'Говард Лавкрафт', rating: 8.67 }
-];
-const MIN_BOOK_RATING = 8;
+// const books = [
+//   { title: 'Последнее королевство', author: 'Бернард Корнуэлл', rating: 8.38 },
+//   { title: 'На берегу спокойных вод', author: 'Роберт Шекли', rating: 8.51 },
+//   { title: 'Сон смешного человека', author: 'Федор Достоевский', rating: 7.75 },
+//   { title: 'Красна как кровь', author: 'Ли Танит', rating: 8.14 },
+//   { title: 'Сны В Ведьмином Доме', author: 'Говард Лавкрафт', rating: 8.67 }
+// ];
+// const MIN_BOOK_RATING = 8;
 // Пиши код ниже этой строки
 
-const names = books
-  .filter((book) => book.rating > MIN_BOOK_RATING)
-  .map((book) => book.author)
-  .sort((a, b) => a.localeCompare(b));
+// const names = books
+//   .filter((book) => book.rating > MIN_BOOK_RATING)
+//   .map((book) => book.author)
+//   .sort((a, b) => a.localeCompare(b));
   
-  console.log(names);
+//   console.log(names);
+
+// // //addEventListener AND this
+// const user = {
+//   name: 'Mango',
+//   showName() {
+//     console.log(this);
+//     // this будет ссылаться на button если использовать showName как callback
+//     console.log(`My name is: ${this.name}`);
+//     // тут undefined так как поля name у button нет
+//   },
+// };
+
+// /*
+//  * Представим что у нас есть кнопка с классом js-btn
+//  * Выберем ее и повесим на нее слушатель клика
+//  */
+// const btn = document.querySelector('.js-btn');
+
+// user.showName(); //работает
+// btn.addEventListener('click', user.showName); // не работает
+// btn.addEventListener('click', user.showName.bind(user)); // работает
+
+// document.addEventListener('DOMContentLoaded', callback)
+
+
+// Напиши скрипт для создания галлереи изображений по массиву данных.
+
+// В HTML есть список ul#gallery.
+
+// <ul id="gallery"></ul>
+//   Используй массив объектов images для создания тегов img вложенных в li.
+// Для создания разметки используй шаблонные строки и insertAdjacentHTML().
+
+// Все элементы галереи должны добавляться в DOM за одну операцию вставки.
+// Добавь минимальное оформление галереи флексбоксами или гридами через css-классы.
+
+const images = [
+  {
+    url: 'https://images.pexels.com/photos/140134/pexels-photo-140134.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+    alt: 'White and Black Long Fur Cat',
+  },
+  {
+    url: 'https://images.pexels.com/photos/213399/pexels-photo-213399.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+    alt: 'Orange and White Koi Fish Near Yellow Koi Fish',
+  },
+  {
+    url: 'https://images.pexels.com/photos/219943/pexels-photo-219943.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+    alt: 'Group of Horses Running',
+  },
+];
+
+const galleryEl = document.querySelector('#gallery');
+
+
+const makeGalleryEl = array => {
+
+  array.forEach(image => {
+    galleryEl.insertAdjacentHTML('afterbegin', '<li></li>');
+    const galleryItemEl = galleryEl.querySelector('li');
+    const galleryItemImgEl = document.createElement('img');
+    galleryItemEl.append(galleryItemImgEl);
+
+    galleryItemImgEl.setAttribute('src', image.url);
+    galleryItemImgEl.setAttribute('alt', image.alt);
+    
+    galleryEl.style.listStyle = 'none';
+    galleryEl.style.display = 'flex';
+    galleryEl.style.justifyContent = 'space-around';
+
+
+    galleryItemImgEl.style.width = '500';
+    galleryItemImgEl.style.height = '300px';
+  })
+
+  return galleryEl;
+};
+
+console.log(makeGalleryEl(images));
